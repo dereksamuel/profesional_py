@@ -1,5 +1,6 @@
-def is_palindrome(string):
-  return string[::-1] == string;
+def is_palindrome(string: str) -> bool:
+  stringStriped = string.strip().upper();
+  return stringStriped[::-1] == stringStriped;
 
 
 def main():
