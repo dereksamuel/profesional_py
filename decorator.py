@@ -15,6 +15,7 @@ def random_func():
   for _ in range(1, 10000000):
     pass;
 
+
 @execution_time
 def suma(a: int, b: int) -> int:
   return a + b;
